@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ffff"
+    tools:context="com.example.android.lookatme.Login">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardBackgroundColor="#bb000000">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.25"
+                android:src="@drawable/logotr"
+                android:id="@+id/imageView2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Email Id"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/email"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/password"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="20dp"
+                    android:hint="Password"
+                    android:textColorHint="#ffffff"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#ffffff"
+                    android:onClick="gotomainActivity"
+                    android:text="LOG IN"
+                    android:background="#88303F9F"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textAllCaps="false"
+                    android:onClick="gotosignup"
+                    android:textColor="#ffffff"
+                    android:text="Don't have an account? Create one"
+                    android:background="#00303F9F"/>
+                android:layout_height="" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

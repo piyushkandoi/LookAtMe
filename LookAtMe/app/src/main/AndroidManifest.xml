@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.lookatme">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                android:configChanges="orientation"
+                android:screenOrientation="portrait"
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateAccount"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MensTshirts"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menswear"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Womenswear"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eckotshirt"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MensEthnicwear"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sherwani"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Refernearn"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contactus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Accessories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EthenicWear"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mensshirts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sunglass_types"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tops"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Jewellery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ethenic_suitanarkali"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Raregreen_top"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".John_checkedshirt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Skipnow"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Cart"></activity>
+    </application>
+
+</manifest>
